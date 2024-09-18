@@ -10,11 +10,17 @@ import java.util.ArrayList;
  *
  * @author alepu
  */
-public class Main {
+public class Editorial {
+    private String nit;
+    private String nombre;
+    private String direccion;
+    private Gerente gerente;
+    private ArrayList<Libro> libros;
     private ArrayList<Stand> stands;
-    private ArrayList<Editorial> editoriales;
-    public static void main(String[] args) {
-        System.out.println("Club Penguin");
+    
+    
+    
+    public static void obtenerAutores(){
     }
     
 }

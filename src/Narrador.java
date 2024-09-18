@@ -10,11 +10,6 @@ import java.util.ArrayList;
  *
  * @author alepu
  */
-public class Main {
-    private ArrayList<Stand> stands;
-    private ArrayList<Editorial> editoriales;
-    public static void main(String[] args) {
-        System.out.println("Club Penguin");
-    }
-    
+public class Narrador extends Persona{
+    private ArrayList<Audiolibro> libros;
 }

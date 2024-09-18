@@ -10,11 +10,7 @@ import java.util.ArrayList;
  *
  * @author alepu
  */
-public class Main {
-    private ArrayList<Stand> stands;
-    private ArrayList<Editorial> editoriales;
-    public static void main(String[] args) {
-        System.out.println("Club Penguin");
-    }
-    
+public class LibroDigital extends Libro{
+    private boolean hasHipervinculo;
+    private ArrayList<String> hipervinculos;
 }
