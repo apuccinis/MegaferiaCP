@@ -58,7 +58,7 @@ public class Megaferia {
             this.addEditorial(editorial);
             for (Integer standId : standsIds) {
                 Stand stand = this.getStandById(standId);
-                if (standId != null) {
+                if (stand != null) {
                     editorial.addStand(stand);
                     stand.addEditorial(editorial);
                 }
